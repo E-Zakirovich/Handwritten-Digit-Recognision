@@ -1,0 +1,57 @@
+# ============================================================
+#  Frontend (React + Vite)
+# ============================================================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.vite/
+
+# ============================================================
+#  Backend (FastAPI)
+# ============================================================
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/.env
+backend/.env.*
+
+# ============================================================
+#  Model / Neural Net
+# ============================================================
+model/checkpoints/
+model/saved_models/
+model/**/__pycache__/
+model/.venv/
+model/venv/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+*.joblib
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets (usually too large for git)
+model/data/
+*.csv
+*.zip
+*.tar.gz
+
+# ============================================================
+#  General
+# ============================================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.idea/
+.vscode/
+*.swp
+*.swo
